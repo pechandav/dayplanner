@@ -61,7 +61,7 @@ body {
     margin-bottom: 2px;
     font-size: 1em;
     line-height: 1.5;
-    border-radius: 15px;
+    border-radius: 10px;
   }
   
   .timeBox {
@@ -70,7 +70,7 @@ body {
     height:100%;
     width: 100%;
     text-align: center;
-    border-radius: 15px 0px 0px 15px;
+    border-radius: 10px 0px 0px 10px;
     display: inline-block;
     font-size: 1em;
   }
@@ -85,13 +85,12 @@ body {
   .saveIcon {
     background-color: #adbca5;
     color:#e8b9ab;
-    border-radius: 0px 15px 15px 0px;
+    border-radius: 0px 10px 10px 0px;
     font-size: 1.5em;
     width: 100%;
     height: 100%;
     text-align: center;
   }
-  
   
   
   .header-text {
@@ -114,15 +113,12 @@ body {
       margin: 10px;
     }
   
-    .saveIcon { border-radius: 0 0 15px 15px; }
+    .saveIcon { border-radius: 0 0 10px 10px; }
   
-    .timeBox { border-radius: 15px 15px 0 0; }
+    .timeBox { border-radius: 10px 10px 0 0; }
   }
-  
-  @import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed');
   
   .wrapper
   { 
     padding: 20px;     
   } 
-  
