@@ -6,3 +6,6 @@
 <p>A container to hold the user's notes/description</p>
 <p>A Save button</p>
 <p> The save button will store the user's time and description in localStorage
+  <br>
+  https://github.com/pechandav/dayplanner/blob/master/README.md<p>
+    
