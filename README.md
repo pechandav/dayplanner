@@ -8,4 +8,5 @@
 <p> The save button will store the user's time and description in localStorage
   <br>
   https://github.com/pechandav/dayplanner<p>
+    https://pechandav.github.io/dayplanner/.
     
