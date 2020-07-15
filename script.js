@@ -22,5 +22,33 @@ $(document).ready(function() {
         planTextArr[4]="Buy more garlic";
         if (test) {console.log("full array of plan text", planTextArr);}
     }
+    let $plannerDiv= $('#plannerContainer');
+    $plannerDiv.empty();
 
-})
+    if (test) {console.log("current time", nowHour12);}
+    for(let hour =9; hour <=17; hour++) {
+        let index = hour-9;
+        let $rowDiv= $('<div>');
+        $rowDiv.addClass('plannerRow');
+        $rowDiv.attr('hour-index', hour);
+
+        let $col2TimeDiv= $('<div>');
+        $col2TimeDiv.addClass('col-md-2');
+
+        const $timeBoxSpn = $('<span>');
+        $timeBoxSpn.attr('class', 'timeBox');
+
+        let displayHour = 0;
+        let ampm = "";
+        if (hour>12) {
+            displayHour = hour-12;
+            ampm="pm"; }
+            else {
+                displayHour = hour;
+                ampm ="am";
+            }
+        }
+
+    }
+
+});
