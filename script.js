@@ -137,7 +137,6 @@ $(document).ready(function() {
       if (test) { console.log('id', $(this).attr('hour-index')); }
   
       let i = $(this).attr('hour-index');
-  
-      $(`#saveid-${i}`).addClass('shadowPulse');
+      
     });
   });
